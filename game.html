@@ -1,0 +1,13 @@
+<h1>Dragon vs Tiger</h1>
+<button onclick="play('dragon')">Dragon</button>
+<button onclick="play('tiger')">Tiger</button>
+
+<h2 id="result"></h2>
+
+<script>
+function play(choice){
+  let r = Math.random() > 0.5 ? "dragon" : "tiger";
+  document.getElementById("result").innerText =
+    choice === r ? "You Win!" : "You Lose!";
+}
+</script>

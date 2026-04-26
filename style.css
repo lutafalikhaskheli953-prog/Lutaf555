@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #111;
+  position: fixed;
+  padding: 20px;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.topbar {
+  background: #1a1a1a;
+  padding: 10px;
+}
+
+button {
+  background: gold;
+  padding: 10px;
+  border: none;
+}
